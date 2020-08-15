@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Online Quiz</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+<link rel="stylesheet" type="text/css" href="login.css">
+<div class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" data-target="#mobile_menu" data-toggle="collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        <a href="#" class="navbar-brand">Online Quiz</a>
+                    </div>
+
+                    <div class="navbar-collapse collapse" id="mobile_menu">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">About team</a></li>
+                                    <li><a href="#">Purpose</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a href="#">Test Preparation</a></li>
+                            <li><a href="#">Admin </a></li>
+                                </ul>
+                       
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-in"></span> Login / Sign Up <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="signup.html">Sign Up</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+  <article class="main-container">
+    <div class="login-wrapper">
+
+      <!-- Contenido del lado izquierdo -->
+      <section class="form-wrapper">
+
+        <!-- Header con links y botón de back -->
+        <header class="form-header">
+
+          <a href="#"><i class="fas fa-arrow-left gray"></i></a>
+          <a href="signup.html" class="register-link gray">Register</a>
+
+        </header>
+
+        <!-- Contenedor del formulario y sus mensajes -->
+        <div class="form-container">
+
+          <!-- Mensaje de login -->
+          <div class="form-messages">
+            <h2>Login</h2>
+            <p>Welcome! Please, fill username and password to sign in into your account.</p>
+          </div>
+
+          <!-- Formulario -->
+          <form action="fakeurl.php" class="form">
+            <input type="email" name="user-email" id="user-email" placeholder="Type your email">
+            <input type="password" name="user-password" id="user-password" placeholder="Type your password">
+            <a href="#" class="forgot-pass">Forgot your password?</a>
+            <a href="#" class="login-button">Login Now</a>
+          </form>
+
+          <!-- Separador entre botón y opciones -->
+          <hr class="separator">
+
+         
+
+      </section>
+
+      <!-- Contenido del lado derecho -->
+      <section class="image-wrapper">
+
+        <div class="image-message">
+
+          <div class="image-hr-container">
+            <hr class="image-hr">
+          </div>
+
+          <div class="image-text">
+            <h2>Start your preparation</h2>
+            <p>Prepare,Practice,perform</p>
+          </div>
+
+        </div>
+
+      </section>
+    </div>
+  </article>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
